@@ -1,41 +1,37 @@
 
 L
-java:S1066G"/Merge this if statement with the enclosing one.(ÚÆàÉ8ÔÂ”ş®2
+java:S1066K"/Merge this if statement with the enclosing one.(ÚÆàÉ8˜€ÿ¯2
 t
-java:S3252G"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(ÚÆàÉ8œØ‘ş®2
+java:S3252K"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(ÚÆàÉ8ÿ‚ÿ¯2
 y
-java:S3252Q"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(ÑÏÒêùÿÿÿÿ8œØ‘ş®2
+java:S3252U"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(ÑÏÒêùÿÿÿÿ8‡ƒÿ¯2
 y
-java:S3252["WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(š£´Éşÿÿÿÿ8œØ‘ş®2
-X	java:S125c"<This block of commented-out lines of code should be removed.(â³ë‰8ŒØ‘ş®2
+java:S3252_"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(š£´Éşÿÿÿÿ8ƒÿ¯2
+X	java:S125r"<This block of commented-out lines of code should be removed.(â³ë‰8‰ƒÿ¯2
 z
-java:S3252"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(Ğı™üÿÿÿÿ8èØ‘ş®2
+java:S3252œ"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(Ğı™üÿÿÿÿ8¨ƒÿ¯2
 z
-java:S3252¥"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(ÑÏÒêùÿÿÿÿ8Å”ş®2
+java:S3252´"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(ÑÏÒêùÿÿÿÿ8¨ƒÿ¯2
 u
-java:S3252§"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(¸Ç‹˜8Å”ş®2
+java:S3252¶"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(¸Ç‹˜8«„ÿ¯2
 K
-java:S1874°".Remove this use of "create"; it is deprecated.(£…Îd8«Ø‘ş®2
+java:S1874¿".Remove this use of "create"; it is deprecated.(£…Îd8°ƒÿ¯2
 Q
-java:S1874±"3Remove this use of "setPriority"; it is deprecated.(Í…ßù8«Ø‘ş®2
+java:S1874À"3Remove this use of "setPriority"; it is deprecated.(Í…ßù8°ƒÿ¯2
 \
-java:S1874±">Remove this use of "PRIORITY_HIGH_ACCURACY"; it is deprecated.(Í…ßù8«Ø‘ş®2
+java:S1874À">Remove this use of "PRIORITY_HIGH_ACCURACY"; it is deprecated.(Í…ßù8°ƒÿ¯2
 V
-java:S1874²"3Remove this use of "setInterval"; it is deprecated.(ºöœŸøÿÿÿÿ8«Ø‘ş®2
+java:S1874Á"3Remove this use of "setInterval"; it is deprecated.(ºöœŸøÿÿÿÿ8°ƒÿ¯2
 X
-java:S1874³":Remove this use of "setFastestInterval"; it is deprecated.(–¶¢8«Ø‘ş®2
-E
-java:S1185Ì"(Remove this method to simply inherit it.(¹§ 8£Î×ş®2
-^	java:S125Î"<This block of commented-out lines of code should be removed.(…ÖüÄúÿÿÿÿ8£Î×ş®2
+java:S1874Â":Remove this use of "setFastestInterval"; it is deprecated.(–¶¢8°ƒÿ¯2
 m
-java:S1874Ø"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(Ó»×¶şÿÿÿÿ8°Ø‘ş®2
-D	java:S131Û""Add a default case to this switch.(×ö³–úÿÿÿÿ8ÀØ‘ş®2
-^	java:S125‚"<This block of commented-out lines of code should be removed.(Ê†—¶ıÿÿÿÿ8ÑØ‘ş®2
+java:S1874ç"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(Ó»×¶şÿÿÿÿ8¼ƒÿ¯2
+D	java:S131ê""Add a default case to this switch.(×ö³–úÿÿÿÿ8¼ƒÿ¯2
+^	java:S125‘"<This block of commented-out lines of code should be removed.(Ê†—¶ıÿÿÿÿ8äƒÿ¯2
 z
-java:S3252¶"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(œÆ±Çùÿÿÿÿ8¶Å”ş®2
+java:S3252Å"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(œÆ±Çùÿÿÿÿ8èÀ¦«¯2
 U
-java:S1135·"2Complete the task associated to this TODO comment.(áÃæùÿÿÿÿ8èØ‘ş®2
+java:S1135Æ"2Complete the task associated to this TODO comment.(áÃæùÿÿÿÿ8«„ÿ¯2
+Y	java:S125Ó"<This block of commented-out lines of code should be removed.(ï‚Ğ©8«„ÿ¯2
 Q
-java:S1144œ"3Remove this unused private "addMarkerOnMap" method.(…âÕ¾8èØ‘ş®2
-\
-java:S1144Ñ"9Remove this unused private "stopLocationTracking" method.(Í®äßüÿÿÿÿ8ÒÎ×ş®2
+java:S1144«"3Remove this unused private "addMarkerOnMap" method.(…âÕ¾8³„ÿ¯2

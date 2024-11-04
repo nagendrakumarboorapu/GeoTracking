@@ -7,9 +7,12 @@ import android.app.PendingIntent;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Looper;
+import android.os.PowerManager;
+import android.provider.Settings;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -63,6 +66,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
 
         checkPermissions();
+
     }
 
     private void checkPermissions() {
@@ -93,6 +97,17 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             ActivityCompat.requestPermissions(this,
                     new String[]{android.Manifest.permission.ACCESS_BACKGROUND_LOCATION},
                     REQUEST_BACKGROUND_LOCATION);
+        }
+
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            String packageName = getPackageName();
+            PowerManager pm = (PowerManager) getSystemService(POWER_SERVICE);
+            if (!pm.isIgnoringBatteryOptimizations(packageName)) {
+                Intent intent = new Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS)
+                        .setData(Uri.parse("package:" + packageName));
+                startActivity(intent);
+            }
         }
     }
 
@@ -203,7 +218,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     @Override
     protected void onPause() {
         super.onPause();
-      //  stopLocationTracking();
+       stopLocationTracking();
     }
 
     private void stopLocationTracking() {
@@ -320,7 +335,14 @@ Toast.makeText(MainActivity.this,"User has moved out of the 3-meter radius",Toas
             geofencingClient.addGeofences(geofencingRequest, geofencePendingIntent)
                     .addOnSuccessListener(aVoid -> Toast.makeText(MainActivity.this,"Geofence added",Toast.LENGTH_LONG).show())
                     .addOnFailureListener(e -> Log.e("MapsActivity", "Geofence failed", e));
+
+      //     enableLocationTracking();
         }
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+enableLocationTracking();
+    }
 }
